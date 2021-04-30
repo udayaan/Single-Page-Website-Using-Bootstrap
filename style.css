@@ -1,0 +1,74 @@
+:root {
+    --primary: #FFFFFF;
+    --secondary: #e6e3f8;
+    --tertiary:#EF626C;
+    --quat:#ECEBF3;
+    --text:#EF626C;
+    --outlines:#8a99a1;
+    --special-border:#f5e999;
+}
+* {
+    font-family: Open Sans;
+    font-weight: 500;
+    font-style: italic;
+}
+html {
+    scroll-behavior:smooth;
+    scroll-padding-top: 100px;
+}
+.navbar{
+    background-color: var(--primary);
+    border-bottom: 2px solid var(--tertiary);
+}
+.navbar.fixed-top.navbar-expand-lg.navbar-light a {
+    color: var(--tertiary);
+    text-decoration: none;
+}
+body {
+    background-color: var(--secondary);
+}
+.carousel-item img {
+    height: 500px;
+}
+.card-header {
+    padding-top: 60px;
+    color: var(--text);
+    background-color: var(--quat);
+    text-decoration: underline;
+    font-size: larger;
+}
+.card-text {
+    padding: 30px;
+    text-align: justify;
+}
+.btn.btn-danger {
+    background-color: var(--tertiary);
+    border-color: var(--tertiary);
+    box-shadow: none;
+}
+#section-head {
+    border-bottom: 2px solid var(--primary);
+    color: var(--primary);
+    background-color: var(--tertiary);
+    padding: 4%;
+}
+img {
+    border: 5px solid var(--special-border);
+}
+iframe {
+    border: 5px solid var(--special-border);
+    width: 60%;
+}
+@media (max-width:500px) {
+    .carousel-item img {
+        height: 300px;
+    }
+    iframe {
+        width: 100%;
+    }
+}
+@media (min-width:800px) {
+    iframe {
+        height: 315px;
+    }
+}
