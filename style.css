@@ -46,11 +46,14 @@ body {
     border-color: var(--tertiary);
     box-shadow: none;
 }
-#section-head {
-    border-bottom: 2px solid var(--primary);
+.section-head {
     color: var(--primary);
     background-color: var(--tertiary);
     padding: 4%;
+}
+#Rules a {
+    color: var(--primary);
+    text-decoration: underline;
 }
 img {
     border: 5px solid var(--special-border);

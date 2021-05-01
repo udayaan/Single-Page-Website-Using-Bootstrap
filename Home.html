@@ -313,16 +313,17 @@
                         <a class="nav-link" href="#about-shri-mata-ji">SHRI MATA JI</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#latest">LATEST</a>
+                        <a class="nav-link" href="#live-darshan">LIVE DARSHAN</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#live-darshan">LIVE DARSHAN</a>
+                        <a class="nav-link" href="#latest">LATEST</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">INFO</a>
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="#Contact">CONTACT</a></li>
                             <li><a class="dropdown-item" href="#Address">ADDRESS</a></li>
+                            <li><a class="dropdown-item" href="#Rules">RULES</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -988,34 +989,6 @@
             
     </div>
 
-    <!-- latest events table -->
-    <!-- sheet link: https://docs.google.com/spreadsheets/d/1b2SMSm0rksopbb8eB3XNtIhbyCAOKv1EnHC540B3XX0/edit#gid=0 -->
-    <div id="latest" class="container">
-        <div class="card text-center">
-            <div class="card-header">
-                Latest Events
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-12">
-                
-                <div class="table-responsive">
-                    <table class="table table-danger table-hover">
-                        <thead>
-                            <tr>
-                              <th>Event</th>
-                              <th>Date (Day)</th>
-                              <th>Details of Puja</th>
-                            </tr>
-                        </thead>
-                        <tbody id="event-data-sheet"></tbody>
-                    </table>
-                </div>
-
-            </div>
-        </div>
-    </div>
-
     <!-- live darshan tab -->
     <div id="live-darshan" class="container">
         <div class="card text-center">
@@ -1026,7 +999,7 @@
                 <div class="row g-0">
                     <div class="col-lg-12 col-md-12">
                         <iframe 
-                            src="https://www.youtube.com/embed/1L_7v2FQ1Os">
+                            src="https://www.youtube.com/embed/UpKjP00vQH8">
                         </iframe>
                     </div>
                 </div>
@@ -1034,23 +1007,68 @@
         </div>
     </div>
 
-    <!-- contact and address bar -->
+    <!-- latest events table -->
+    <!-- sheet link: https://docs.google.com/spreadsheets/d/1b2SMSm0rksopbb8eB3XNtIhbyCAOKv1EnHC540B3XX0/edit#gid=0 -->
+    <div id="latest" class="container-fluid">
+        <br><br>
+        <div class="card text-center card-body">
+            <h4>Latest Events</h4>
+            <hr>
+            <div class="row">
+                <div class="col-lg-12">
+                    
+                    <h5>Puja Schedule</h5>
+                    <div class="table-responsive">
+                        <table class="table table-danger table-hover">
+                            <thead>
+                                <tr>
+                                  <th>Event</th>
+                                  <th>Date (Day)</th>
+                                  <th>Details of Puja</th>
+                                </tr>
+                            </thead>
+                            <tbody id="event-data-sheet"></tbody>
+                        </table>
+                    </div>
+    
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <!-- contact address and rules bar -->
     <div class="container-fluid">
-        <div class="row" id="Contact">
-            <div class="col-lg-12 col-md-12" id="section-head">
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 section-head" id="Address">
+                <h4>Address</h4>
+                <p>
+                    Shree Adishakti Peeth, Nirmal Dham, Chhawala Village, Near Dwarka Sector 23, New Delhi-110071
+                </p> 
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 section-head" id="Contact">
                 <h4>Contact</h4>
                 <p>
                     <strong>Phone: </strong> +91-931 017 7207 <br>
                     <strong>Mail: </strong> delhiniramldham@gmail.com
                 </p> 
             </div>
-        </div>
-        <div class="row" id="Address">
-            <div class="col-lg-12 col-md-12" id="section-head">
-                <h4>Address</h4>
+            <div class="col-lg-4 col-md-4 col-sm-4 section-head" id="Rules">
+                <h4>Rules</h4>
                 <p>
-                    Shree Adishakti Peeth, Nirmal Dham, Chhawala Village, Near Dwarka Sector 23, New Delhi-110071
-                </p> 
+                    Rules for Mahasamadhi Sthal
+                    <br>
+                    <a href="https://www.nirmaldham.org/wp-content/uploads/2020/10/guidelines2020-hindi.pdf" target="_blank">Hindi</a> |
+                    <a href="https://www.nirmaldham.org/wp-content/uploads/2020/10/guidelines2020-english.pdf" target="_blank">English</a>
+                    <br>
+                    Rules for Nirmal Dham
+                    <br>
+                    <a href="https://www.nirmaldham.org/wp-content/uploads/2020/10/guidelines-board-hindi.pdf" target="_blank">Hindi</a> |
+                    <a href="https://www.nirmaldham.org/wp-content/uploads/2020/10/guidelines-board-english.pdf" target="_blank">English</a>
+                    <br>
+                </p>
+                
+
             </div>
         </div>
     </div>
