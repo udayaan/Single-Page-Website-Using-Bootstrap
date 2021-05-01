@@ -84,3 +84,29 @@ iframe {
 .image-zoom-in:hover img {
     transform: scale(1.2);
 }
+.fade-in-hidden {
+    color: rgba(0, 0, 0, 0);
+}
+.fade-in-left-hidden {
+    color: rgba(0, 0, 0, 0);
+}
+.fade-in-elem {
+    animation: fade-in 2.5s;
+}
+.fade-in-left-elem {
+    animation: fade-in-left 2.5s;
+}
+@keyframes fade-in {
+    from {opacity: 0; transform: scale(.8,.8)}
+    to {opacity: 1;}
+}
+@keyframes fade-in-left {
+    from {
+       opacity: 0;
+       transform: translateX(-20px);
+    }
+    to {
+       opacity: 1;
+       transform: translateX(0);
+    }
+ }
