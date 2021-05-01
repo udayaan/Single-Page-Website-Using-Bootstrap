@@ -30,4 +30,4 @@ xmlhttp.open(
     "https://spreadsheets.google.com/feeds/cells/1b2SMSm0rksopbb8eB3XNtIhbyCAOKv1EnHC540B3XX0/od6/public/full?alt=json",
     true
   );
-  xmlhttp.send();
+xmlhttp.send();
